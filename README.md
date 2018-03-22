@@ -4,7 +4,8 @@ This repo contains several files.
 
 I intend not to tell what each file aims to.
 
-Meanwhile, I am **not** responsible for these files. 
+## Using
+You can add this path into your *~/.bashrc*, which makes it possible wherever you can **import** these files.
 
 However, please let me know, if it works.
 
