@@ -18,7 +18,7 @@ source ~/.bashrc
 ```
 However, please let me know, if it works.
 ## Acknowledgement
-BTW, I am very grateful to K and Xinge.
+I am very grateful to K and Xinge.
 
 Last but not least, **may the Force be with u.**
 
