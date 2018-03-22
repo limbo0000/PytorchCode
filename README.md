@@ -10,7 +10,7 @@ You can add this path into your *~/.bashrc*, which makes it possible wherever yo
 
 Add this in your *~/.bashrc*
 ```
-export PYTHONPATH="PathofThisRepo:PYTHONPATH"
+export PYTHONPATH="PathofThisRepo:$PYTHONPATH"
 ```
 Then excute 
 ```
