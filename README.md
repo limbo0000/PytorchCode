@@ -7,7 +7,9 @@ I intend not to tell what each file aims to.
 ## Using
 You can add this path into your *~/.bashrc*, which makes it possible wherever you can **import** these files.
 
-'''hello'''
+'''
+hello
+'''
 
 <br>export PYTHONPATH="PathofThisRepo:PYTHONPATH"
 <br>source ~/.bashrc
