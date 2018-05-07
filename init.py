@@ -8,11 +8,12 @@ def weights_init_normal(m):
         inital.normal(m.bias.data,0,0.02)
 def weights_init_xavier(m):
     if isinstance(m, torch.nn.Conv2d) or isinstance(m, torch.nn.Conv3d) or isinstance(m, torch.nn.ConvTranspose2d) or isinstance(m, torch.nn.Linear):
-        inital.xavier_normal(m.weight.data)
-        inital.xavier_normal(m.bias.data)
+        inital.xavier_normal(m.weight)
+    if isinstance(m, torch.nn.BatchNorm2d) or isinstance(m, torch.nn.BatchNorm3d):
+        inital.normal(m.weight.data)
 
 def weights_init_kaiming(m):
     if isinstance(m, torch.nn.Conv2d) or isinstance(m, torch.nn.Conv3d) or isinstance(m, torch.nn.ConvTranspose2d) or isinstance(m, torch.nn.Linear):
-        inital.kaiming_normal(m.weight.data)
-        inital.kaiming_normal(m.bias.data)
+        inital.kaiming_normal_(m.weight.data)
+        inital.kaiming_normal_(m.bias.data)
 
